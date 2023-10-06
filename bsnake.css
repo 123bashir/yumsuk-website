@@ -1,0 +1,141 @@
+ .bash{
+     background-image: url(images/daji.jpg); 
+    font-family: 'Courier New', Courier, monospace; background-size: cover;
+    text-align: center; 
+} 
+.logo{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+.yaro{ 
+    margin: 0; padding: 0;
+    background-color: rgba(124, 121, 115,0);
+    background-image: url(images/kwankwasiyya.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:orange;
+    font-size: 35px;
+    padding-left: 30px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-bottom: 90px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    display: flex;
+    float: left;
+    right: 90px;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 110px;
+    margin-bottom: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ul li a:hover{
+    text-decoration: none;
+    color: orange;
+    transition:  .5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; transform: rotate(360deg);
+}
+.srch{
+    width: 330px;
+    float: left;
+    margin-left: 340px;
+    margin-top: 30px;
+}.er{
+    width: 204px;
+    background: transparent;
+    height: 30px;
+    border: 1px solid orange;
+    color: white; 
+    border-right: none;
+    font-size: 17px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 17px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    
+}.btn:focus{
+    outline: none;
+}
+.er{
+    outline: none;
+}
+.img{
+    border-radius: 50%;
+    padding-bottom: 100px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+.content .par{
+    padding-top: 50px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    letter-spacing: 1.2px; 
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+    letter-spacing: 2px;
+
+}
+.cn{
+    width: 150px;
+    height: 35px;
+    background-color: orange; border: none; margin-left: 49px; font-size: 18px; border-radius: 10px; cursor: pointer;
+}
+.cn a{
+    text-decoration: none; color: black;
+}
+@media(max-width:991px){
+    html{
+        font-size:55.5% ;
+    }
+    .bash{padding:1rem 2rem ; }
+}
+@media(max-width:768px){

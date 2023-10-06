@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(13deg,pink,rgb(44, 20, 20));
+    height: 100vh;
+}
+.head{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: bisque;
+}
+.foam1{
+    border: double rgb(15, 7, 7) 3px;
+    
+}
+
+#as:hover{
+    display: inline-block;
+    background: linear-gradient(13deg,pink,rgb(44, 20, 20));
+}
+#hausa{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(224, 202, 202);
+    position: absolute;
+    top: 40px;
+    font: 30px;
+    width: 80%;
+    height: 40vh;
+}
+.vast{ 
+    background-color: inherit;
+    height: 400px;
+    margin-top: 300px;
+    
+    
+}
+.fagge{
+    background-color: rgb(94, 72, 41);
+    height: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 100%;
+    border: double 10px;
+    
+
+
+}
+
+.lamba{
+    margin: 100px;
+    height: 100vh;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+.bast{
+    background-color: inherit;
+    margin-left: 580px;
+    position: absolute;
+    bottom: 17px;
+    width: 10%;
+    height: 20px;
+    border: double 5px pink;
+
+}
